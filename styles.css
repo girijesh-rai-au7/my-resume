@@ -1,0 +1,46 @@
+.navbar nav ul  {
+    list-style: none;
+    margin:0;
+    padding:0;
+    
+}
+.navbar li {
+    display: inline-block;
+    
+}
+.navbar{
+    background-color: #181818;
+    height: 80px;
+    width: 100%;
+    
+    position:fixed
+    opacity: 0.9
+    
+    
+    
+}
+.navbar a :hover{
+    cursor: pointer;
+    border-bottom: 5px solid #8c1886;
+}
+.navbar a{
+    margin: 20px;
+    text-decoration: none;
+    color: white;
+   
+    
+    
+}
+body,html{
+    margin:0;
+    padding:0;
+    height: 1000px;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+.image{
+    background-image:url("nature1.jpg") ;
+    background-size:cover;
+}
